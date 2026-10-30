@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#400849">
+  <title>Shiksha's Cake Rush | Eggless Cakes & Custom Cakes in Etobicoke</title>
+  <meta name="description" content="Eggless cakes, custom cakes for all occasions, snacks, desserts and party orders at Shiksha's Cake Rush, 1005 Albion Rd, Etobicoke.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shiksha's Cake Rush">
+  <meta property="og:description" content="Eggless Cakes & Custom Cakes for All Occasions.">
+  <meta property="og:url" content="https://shikshas-cake-rush.vercel.app">
+  <meta property="og:image" content="https://shikshas-cake-rush.vercel.app/images/cake-01.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js"></script>
+  <script src="reviews.js"></script>
+  <script defer src="app.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Bakery",
+    "name":"Shiksha's Cake Rush",
+    "address":{"@type":"PostalAddress","streetAddress":"1005 Albion Rd","addressLocality":"Etobicoke","addressRegion":"ON","postalCode":"M9V 1A6","addressCountry":"CA"},
+    "telephone":"+14167408234",
+    "openingHours":["Mo-Sa 10:00-24:00","Su 12:00-24:00"]
+  }
+  </script>
+</head>
+<body>
+  <div class="intro" id="intro" aria-hidden="true"><div class="intro-brand"><span class="intro-name">SHIKSHA'S</span><span class="intro-sub">CAKE RUSH</span></div><i class="intro-sweep"></i></div>
+  <header class="site-header" id="header">
+    <a class="wordmark" href="#home" aria-label="Shiksha's Cake Rush home"><span>SHIKSHA'S</span><small>CAKE RUSH</small></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <a href="#services">What we make</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#location">Find us</a>
+      <a class="button button-primary nav-call" href="tel:+14167408234">Call to Order</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">ALBION RD · ETOBICOKE</p>
+        <h1><span>Eggless cakes</span><span>for every</span><span class="accent">occasion</span></h1>
+        <p class="hero-tagline">Eggless and custom cakes for all occasions. Snacks, desserts and party orders too.</p>
+        <div class="hero-actions" id="heroActions">
+          <a class="button button-primary call-button" href="tel:+14167408234"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.8 9.2 3l2 4.8-2.1 1.5a14.2 14.2 0 0 0 5.6 5.6l1.5-2.1 4.8 2-.8 2.6a2 2 0 0 1-2.1 1.4A16.4 16.4 0 0 1 5.2 6a2 2 0 0 1 1.4-2.2Z"/></svg><span>Call to Order</span><b>(416) 740-8234</b></a>
+          <a class="button button-ghost" href="#gallery">See our work</a>
+          <a class="button button-ghost message-link" data-message-link href="" hidden>Message us</a>
+        </div>
+        <div class="hero-meta"><span class="open-pill" id="openPill"><i></i><span>Check today's hours</span></span><span class="review-mini">★★★★★ <b>4.7</b> · 376 Google reviews</span></div>
+        <div class="hero-review-line" id="heroReviewLine" aria-live="polite"><span class="hero-review-stars" aria-label="5 out of 5 stars">★★★★★</span><blockquote>Such a sweet family running this little cakery. You can genuinely feel the love and effort they put into what they do.</blockquote><strong>Dhvani B.</strong></div>
+      </div>
+      <div class="phone-showcase">
+        <div class="phone-stage" id="phoneStage" aria-label="Cake photo carousel">
+          <div class="phone-card active" data-index="0"><img src="images/cake-01.jpg" width="1200" height="1600" alt="Pink princess cake with crown decorations" fetchpriority="high"><span>Princess</span></div>
+          <div class="phone-card" data-index="1"><img src="images/cake-02.jpg" width="1200" height="1600" alt="Decorated birthday cake" loading="lazy"><span>Birthday</span></div>
+          <div class="phone-card" data-index="2"><img src="images/cake-03.jpg" width="1200" height="1600" alt="Baby shower cake with decorative details" loading="lazy"><span>Baby shower</span></div>
+          <div class="phone-card" data-index="3"><img src="images/cake-05.jpg" width="1200" height="1600" alt="Anniversary cake with elegant decoration" loading="lazy"><span>Anniversary</span></div>
+          <div class="phone-card" data-index="4"><img src="images/cake-07.jpg" width="1200" height="1600" alt="Racing themed cake" loading="lazy"><span>Racing</span></div>
+        </div>
+        <div class="carousel-dots" id="carouselDots" aria-label="Choose cake photo"><button aria-label="Show photo 1" class="active"></button><button aria-label="Show photo 2"></button><button aria-label="Show photo 3"></button><button aria-label="Show photo 4"></button><button aria-label="Show photo 5"></button></div>
+        <p class="swipe-hint" id="swipeHint">Swipe to explore</p>
+      </div>
+      <div class="desktop-wall-parallax"><div class="desktop-wall" aria-label="Cake gallery wall">
+        <div class="wall-column wall-up">
+          <div class="wall-card"><img src="images/cake-01.jpg" width="1200" height="1600" loading="lazy" alt="Pink princess cake with crown decorations"><span>Princess</span></div><div class="wall-card"><img src="images/cake-04.jpg" width="1200" height="1600" loading="lazy" alt="Half birthday cake with playful decoration"><span>Half birthday</span></div><div class="wall-card"><img src="images/cake-07.jpg" width="1200" height="1600" loading="lazy" alt="Racing themed cake"><span>Racing</span></div><div class="wall-card"><img src="images/cake-10.jpg" width="1200" height="1600" loading="lazy" alt="Starry blue birthday cake"><span>Starry blue</span></div>
+        </div><div class="wall-column wall-down">
+          <div class="wall-card"><img src="images/cake-02.jpg" width="1200" height="1600" loading="lazy" alt="Decorated birthday cake"><span>Birthday</span></div><div class="wall-card"><img src="images/cake-05.jpg" width="1200" height="1600" loading="lazy" alt="Anniversary cake with elegant decoration"><span>Anniversary</span></div><div class="wall-card"><img src="images/cake-08.jpg" width="1200" height="1600" loading="lazy" alt="Classic black and gold cake"><span>Classic black and gold</span></div><div class="wall-card"><img src="images/cake-11.jpg" width="1200" height="1600" loading="lazy" alt="Bon voyage themed cake"><span>Bon voyage</span></div>
+        </div><div class="wall-column wall-up wall-third">
+          <div class="wall-card"><img src="images/cake-03.jpg" width="1200" height="1600" loading="lazy" alt="Baby shower cake with decorative details"><span>Baby shower</span></div><div class="wall-card"><img src="images/cake-06.jpg" width="1200" height="1600" loading="lazy" alt="Floral decorated cake"><span>Floral</span></div><div class="wall-card"><img src="images/cake-09.jpg" width="1200" height="1600" loading="lazy" alt="Panda themed cake"><span>Panda</span></div><div class="wall-card"><img src="images/cake-12.jpg" width="1200" height="1600" loading="lazy" alt="Beer mug themed cake"><span>Beer mug</span></div>
+        </div>
+        <div class="wall-spotlight"></div>
+      </div></div>
+      <a class="scroll-cue" href="#services">SCROLL TO EXPLORE <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v15m-6-6 6 6 6-6"/></svg></a>
+    </section>
+    <div class="marquee" aria-label="Custom Cakes, Eggless Cakes, Desserts, Snacks, Party Orders, Pure Veg"><div>Custom Cakes <b>•</b> Eggless Cakes <b>•</b> Desserts <b>•</b> Snacks <b>•</b> Party Orders <b>•</b> Pure Veg <b>•</b> Custom Cakes <b>•</b> Eggless Cakes <b>•</b> Desserts <b>•</b> Snacks <b>•</b> Party Orders <b>•</b> Pure Veg <b>•</b></div></div>
+    <section class="section services-section" id="services">
+      <div class="section-heading"><p class="eyebrow">MADE FOR YOUR MOMENTS</p><h2>A little something<br><span class="accent">for every occasion.</span></h2></div>
+      <div class="service-grid">
+        <article class="service-card"><span>01</span><h3>Custom cakes</h3><p>Cakes made for your occasion and your ideas.</p></article>
+        <article class="service-card"><span>02</span><h3>Eggless cakes</h3><p>Eggless cakes for your celebrations.</p></article>
+        <article class="service-card"><span>03</span><h3>Desserts</h3><p>A selection of desserts for sharing.</p></article>
+        <article class="service-card"><span>04</span><h3>Snacks and parathas</h3><p>Snacks and parathas for different moments.</p></article>
+        <article class="service-card"><span>05</span><h3>Drinks</h3><p>Lassi, fresh juices, tea and coffee.</p></article>
+      </div>
+    </section>
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading"><p class="eyebrow">A LOOK AT OUR CAKES</p><h2>Made to make<br><span class="accent">memories.</span></h2></div>
+      <div class="filter-row" id="galleryFilters"><button class="filter-chip active" data-filter="All">All</button><button class="filter-chip" data-filter="Birthday">Birthday</button><button class="filter-chip" data-filter="Kids">Kids</button><button class="filter-chip" data-filter="Baby shower">Baby shower</button><button class="filter-chip" data-filter="Anniversary">Anniversary</button><button class="filter-chip" data-filter="Themed">Themed</button></div>
+      <div class="gallery-grid" id="galleryGrid">
+        <button class="gallery-tile" data-category="Kids" data-label="Princess" data-src="images/cake-01.jpg"><img src="images/cake-01.jpg" width="1200" height="1600" loading="lazy" alt="Pink princess cake with crown decorations"><span>Princess</span></button>
+        <button class="gallery-tile" data-category="Birthday" data-label="Birthday" data-src="images/cake-02.jpg"><img src="images/cake-02.jpg" width="1200" height="1600" loading="lazy" alt="Decorated birthday cake"><span>Birthday</span></button>
+        <button class="gallery-tile" data-category="Baby shower" data-label="Baby shower" data-src="images/cake-03.jpg"><img src="images/cake-03.jpg" width="1200" height="1600" loading="lazy" alt="Baby shower cake with decorative details"><span>Baby shower</span></button>
+        <button class="gallery-tile" data-category="Kids" data-label="Half birthday" data-src="images/cake-04.jpg"><img src="images/cake-04.jpg" width="1200" height="1600" loading="lazy" alt="Half birthday cake with playful decoration"><span>Half birthday</span></button>
+        <button class="gallery-tile" data-category="Anniversary" data-label="Anniversary" data-src="images/cake-05.jpg"><img src="images/cake-05.jpg" width="1200" height="1600" loading="lazy" alt="Anniversary cake with elegant decoration"><span>Anniversary</span></button>
+        <button class="gallery-tile" data-category="Birthday" data-label="Floral" data-src="images/cake-06.jpg"><img src="images/cake-06.jpg" width="1200" height="1600" loading="lazy" alt="Floral decorated cake"><span>Floral</span></button>
+        <button class="gallery-tile" data-category="Themed" data-label="Racing" data-src="images/cake-07.jpg"><img src="images/cake-07.jpg" width="1200" height="1600" loading="lazy" alt="Racing themed cake"><span>Racing</span></button>
+        <button class="gallery-tile" data-category="Birthday" data-label="Classic black and gold" data-src="images/cake-08.jpg"><img src="images/cake-08.jpg" width="1200" height="1600" loading="lazy" alt="Classic black and gold cake"><span>Classic black and gold</span></button>
+        <button class="gallery-tile" data-category="Kids" data-label="Panda" data-src="images/cake-09.jpg"><img src="images/cake-09.jpg" width="1200" height="1600" loading="lazy" alt="Panda themed cake"><span>Panda</span></button>
+        <button class="gallery-tile" data-category="Birthday" data-label="Starry blue" data-src="images/cake-10.jpg"><img src="images/cake-10.jpg" width="1200" height="1600" loading="lazy" alt="Starry blue birthday cake"><span>Starry blue</span></button>
+        <button class="gallery-tile" data-category="Themed" data-label="Bon voyage" data-src="images/cake-11.jpg"><img src="images/cake-11.jpg" width="1200" height="1600" loading="lazy" alt="Bon voyage themed cake"><span>Bon voyage</span></button>
+        <button class="gallery-tile" data-category="Themed" data-label="Beer mug" data-src="images/cake-12.jpg"><img src="images/cake-12.jpg" width="1200" height="1600" loading="lazy" alt="Beer mug themed cake"><span>Beer mug</span></button>
+      </div>
+    </section>
+    <section class="section reviews-section" id="reviews">
+      <div class="section-heading"><p class="eyebrow">KIND WORDS</p><h2>Reviews from our<br><span class="accent">customers on Google</span></h2><p class="review-summary">4.7 out of 5 · 376 Google reviews</p></div>
+      <div class="review-track" id="reviewTrack">
+        <article class="review-card"><div class="review-stars">★★★★★</div><blockquote>Such a sweet family running this little cakery. You can genuinely feel the love and effort they put into what they do.</blockquote><strong>Dhvani B.</strong><a href="https://maps.app.goo.gl/mGrRisPhrwYLoJbj9" target="_blank" rel="noopener">Read more on Google</a></article>
+        <article class="review-card"><div class="review-stars">★★★★★</div><blockquote>I have ordered birthday cakes for my family twice here and I was blown away from the taste, design and especially the service.</blockquote><strong>Chiranjeev K.</strong><a href="https://maps.app.goo.gl/mGrRisPhrwYLoJbj9" target="_blank" rel="noopener">Read more on Google</a></article>
+        <article class="review-card"><div class="review-stars">★★★★★</div><blockquote>Best place to have vegetarian cakes</blockquote><strong>Nishi A.</strong><a href="https://maps.app.goo.gl/mGrRisPhrwYLoJbj9" target="_blank" rel="noopener">Read more on Google</a></article>
+      </div>
+    </section>
+    <section class="section location-section" id="location">
+      <div class="location-copy"><p class="eyebrow">COME SAY HELLO</p><h2>Find us on<br><span class="accent">Albion Road.</span></h2><p>1005 Albion Rd, Etobicoke, ON M9V 1A6</p><a class="button button-primary" href="https://maps.app.goo.gl/mGrRisPhrwYLoJbj9" target="_blank" rel="noopener">Get directions <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg></a><div class="hours"><h3>Opening hours</h3><p>Monday – Saturday <span>10:00 AM – 12:00 AM</span></p><p>Sunday <span>12:00 PM – 12:00 AM</span></p></div></div>
+      <div class="map-wrap"><iframe title="Map showing Shiksha's Cake Rush at 1005 Albion Road, Etobicoke" src="https://www.google.com/maps?q=1005+Albion+Rd+Etobicoke+ON+M9V+1A6&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      <figure class="storefront"><img src="images/storefront.jpg" width="1200" height="900" loading="lazy" alt="Shiksha's Cake Rush storefront" onerror="this.closest('figure').hidden=true"></figure>
+    </section>
+  </main>
+  <footer class="footer"><a class="wordmark" href="#home"><span>SHIKSHA'S</span><small>CAKE RUSH</small></a><p>Eggless Cakes & Custom Cakes for All Occasions<br>Snacks • Desserts • Party Orders · Pure Veg</p><p>1005 Albion Rd, Etobicoke, ON M9V 1A6<br><a href="tel:+14167408234">(416) 740-8234</a></p><p class="footer-hours">Mon–Sat 10:00 AM–12:00 AM · Sun 12:00 PM–12:00 AM</p><small>© <span id="year">2026</span> Shiksha's Cake Rush</small></footer>
+  <div class="sticky-call" id="stickyCall"><a href="tel:+14167408234" aria-label="Call Shiksha's Cake Rush"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.8 9.2 3l2 4.8-2.1 1.5a14.2 14.2 0 0 0 5.6 5.6l1.5-2.1 4.8 2-.8 2.6a2 2 0 0 1-2.1 1.4A16.4 16.4 0 0 1 5.2 6a2 2 0 0 1 1.4-2.2Z"/></svg></a><a class="button button-primary" href="tel:+14167408234">Call to Order</a></div>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Cake photo viewer" hidden><button class="lightbox-close" aria-label="Close photo viewer">×</button><button class="lightbox-prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button><img alt=""><button class="lightbox-next" aria-label="Next photo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button><p></p></div>
+</body>
+</html>
